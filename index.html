@@ -4,9 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <h1>LOLOLOLOLOLOLOLOLOL</h1>
-    <p>THERE ONCE WAS A STOCKLorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda architecto blanditiis sed, tempore dolorum tenetur, distinctio numquam optio minima itaque eligendi delectus quae nostrum maiores. Numquam dolorem tempore cumque beatae!Lorem    </p>
+    <header>
+        <h1>Sten . Sax . Papper</h1>
+        <input type="button" value="Starta om" onclick="document.location.reload(true)">
+    </header>
+    <div class="valen">
+        <button class="val" data-selection="rock">
+            <img src="rock.jpg">
+        </button>
+        <button class="val" data-selection="paper">🧻</button>
+        <button class="val" data-selection="scissors">✂️ </button>
+      </div>
+      <div class="resultat">
+        <div>
+          Spelare poäng:
+          <span class="resultat-poäng" data-your-score>0</span>
+        </div>
+        <div data-final-column>
+          CPU poäng:
+          <span class="resultat-poäng" data-computer-score>0</span>
+        </div>
+      </div>
 </body>
 </html>

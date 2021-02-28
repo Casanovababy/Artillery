@@ -1,0 +1,65 @@
+body {
+  background-color: #ccd1d4;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+  text-align: center;
+}
+.valen {
+  display: flex;
+  justify-content: center;
+}
+input {
+  color: whitesmoke;
+  background: #333;
+  border: whitesmoke;
+  outline: none;
+  cursor: pointer;
+  font-size: 2rem;
+  transition: 100ms;
+}
+.val {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 12rem;
+  transition: 100ms;
+}
+
+.val:hover {
+  transform: scale(1.2);
+}
+.val,
+img:hover {
+  transform: scale(0.9);
+}
+
+.resultat {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  font-size: xx-large;
+}
+
+.resultat-poäng {
+  margin-left: 2rem;
+  font-size: 30px;
+  color: #333;
+}
+
+.resultat-val {
+  opacity: 0.5;
+  font-size: xx-large;
+}
+
+.resultat-val.winner {
+  opacity: 1;
+  font-size: 30px;
+}
+
+button {
+  width: 100%;
+}
